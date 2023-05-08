@@ -1,0 +1,52 @@
+.container {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(95, 250, 18);
+    text-align: center;
+    padding: 2em;
+    margin: 0 auto;
+    color: rgb(208, 243, 9);
+}
+
+header {
+    background-color: blanchedalmond;
+    width: 1150px;
+    height: 300px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 20px;
+    color: brown;
+}
+
+.text-center button
+{
+    position: relative;
+    left: 58%;
+    transform: translateY(6px);
+    background: dodgerblue;
+    border: none;
+    width: 10em;
+    height: 2em;
+    border-radius: 20em;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+}
+label{
+    color: #0aaaee;
+    font-size: 20px;
+    left: 1px;
+}
+form input
+{
+    display: flexbox;
+    flex-direction: column;
+}
+#login{
+    font-size: 20px;
+    background: rgb(216, 113, 218);
+    border: none;
+    border-radius: 20em;
+    width: 3em;
+    height: 1.2em;
+}
