@@ -39,12 +39,12 @@ if(isset($_POST['submit'])){
     $password = $_POST['password'];
 
     // Validate the user's credentials
-    if($email == 'admin@gmail.com' && $password == '1234'){
+    if($email == 'aimablebyumvuhore@gmail.com' && $password == '1234'){
         // Start a new session
         session_start(); 
 
         // Set session variables
-        $_SESSION['username'] = 'admin';
+        $_SESSION['username'] = 'BYUMVUHORE Aimable';
 
         // Redirect the user to the homepage
         header('Location: index.php');
@@ -68,7 +68,7 @@ if(isset($_POST['submit'])){
         }else{
             // Display an error message
     
-echo "<p>Invalid username or email or password.</p>";
+echo "<p>Invalid usernamel,email or password.</p>";
         }
     }
 }
