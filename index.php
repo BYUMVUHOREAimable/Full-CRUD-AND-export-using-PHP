@@ -121,7 +121,7 @@
                 <td><?php echo $data['email']; ?></td>
                 <td><?php echo $data['gender']; ?></td>
                 <td>
-                    <a href="view.php?id=<?php echo $data['id']; ?>" class="btn btn-info">Read More</a>
+                    <!-- <a href="view.php?id=<?php echo $data['id']; ?>" class="btn btn-info">Read More</a> -->
                     <a href="edit.php?id=<?php echo $data['id']; ?>" class="btn btn-warning">Edit</a>
                     <a href="delete.php?id=<?php echo $data['id']; ?>" class="btn btn-danger">Delete</a>
                     
